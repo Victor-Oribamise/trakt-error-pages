@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Unavailable - Trakt System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-container {
+            text-align: center;
+            color: white;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 700;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+        .warning-icon {
+            font-size: 4rem;
+            margin: 2rem 0;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">503</div>
+        <div class="warning-icon">
+            <i class="fas fa-tools"></i>
+        </div>
+        <h1 class="h2 mb-3">Service Temporarily Unavailable</h1>
+        <p class="lead mb-4">We're performing scheduled maintenance or experiencing high demand. We'll be back shortly.</p>
+        <div class="d-flex gap-3 justify-content-center">
+            <a href="https://trakt.kquika.com" class="btn btn-light btn-lg">
+                <i class="fas fa-home me-2"></i>Return to Dashboard
+            </a>
+            <a href="javascript:location.reload()" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-refresh me-2"></i>Try Again
+            </a>
+        </div>
+        <div class="mt-4">
+            <small class="opacity-75">Error Code: 503 | Trakt System Platform</small>
+        </div>
+    </div>
+</body>
+</html>
