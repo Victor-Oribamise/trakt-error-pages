@@ -9,8 +9,8 @@ These pages are served via GitHub Pages and used by Heroku when the application 
 ## Heroku Configuration
 
 ```bash
-heroku config:set ERROR_PAGE_URL=https://kquika.github.io/trakt-error-pages/index.html
-heroku config:set MAINTENANCE_PAGE_URL=https://kquika.github.io/trakt-error-pages/index.html
+heroku config:set ERROR_PAGE_URL=https://victor-oribamise.github.io/trakt-error-pages/index.html
+heroku config:set MAINTENANCE_PAGE_URL=https://victor-oribamise.github.io/trakt-error-pages/index.html
 ```
 
 ## Pages
